@@ -1,23 +1,11 @@
----
-title: 多 Agent 共享工作库（模板）
-id: WL-0000
-type: protocol
-source_env: template
-source_agent: "{{ASSISTANT_NAME}}"
-origin: 本模板框架
-created_at: "{{DATE}}"
-updated_at: "{{DATE}}"
-timezone: Asia/Shanghai
-version: 1
-supersedes: 
-tags: [protocol, onboarding]
-status: active
-visibility: private
----
-
-<!-- 本仓库由 multi-agent-shared-library 模板生成。首次使用请先读 SETUP.md，完成 {{OWNER_NAME}} 替换与第一个环境登记。 -->
-
 # 多 Agent 共享工作库
+
+![GitHub stars](https://img.shields.io/github/stars/juliasadler/multi-agent-shared-library?style=social)
+![License](https://img.shields.io/github/license/juliasadler/multi-agent-shared-library)
+![Last commit](https://img.shields.io/github/last-commit/juliasadler/multi-agent-shared-library)
+
+> 多个 AI Agent 共用一个工作库的实战框架：目录骨架 + 14 节同步防覆盖协议 + 索引工具，开箱即用。
+> Fork 后按 `SETUP.md` 十分钟搭出属于你自己的共享库（记得替换 `{{OWNER_NAME}}`）。
 
 这是 {{OWNER_NAME}} 的多环境 agent 工作库：每个环境的 agent 把自己沉淀的文档、skill、记忆、清单以 Markdown 形式提交到本仓库，供其他环境拉取复用。
 
@@ -115,3 +103,13 @@ title、id（WL-xxxx，查 INDEX 顺延分配）、type、source_env（你的 en
 - 删除、改名、覆盖他人文档必须经用户确认；冲突最终由用户拍板。
 - 记忆正本只有一个写手；目标/追踪总表禁止手改。
 - 不确定就停下来问用户，不猜、不删、不覆盖。
+
+## 👤 模板作者
+
+**liyu**（GitHub: [@juliasadler](https://github.com/juliasadler)）
+本模板从真实的多环境 Agent 协作实践中提炼，同步防覆盖协议历经多次真实事故打磨。
+
+## 📄 许可证
+
+本仓库模板内容采用 [MIT License](LICENSE)。
+用本模板搭建你自己的知识库后，新仓库的许可证由你自己决定。
