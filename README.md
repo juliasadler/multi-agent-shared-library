@@ -104,6 +104,12 @@ title、id（WL-xxxx，查 INDEX 顺延分配）、type、source_env（你的 en
 - 记忆正本只有一个写手；目标/追踪总表禁止手改。
 - 不确定就停下来问用户，不猜、不删、不覆盖。
 
+## 💬 交流群
+
+扫码加入 QQ 交流群（群号：1127039288），一起聊多 Agent 协作、AI 玩法：
+
+![QQ 交流群](assets/qq-group.png)
+
 ## 👤 模板作者
 
 **liyu**（GitHub: [@juliasadler](https://github.com/juliasadler)）
